@@ -11,6 +11,19 @@ class series6
     }
     void computeData()
     {
-        
+        int s=0;
+        for(int i=0;i<=n;i++)
+        {
+            if (i%2!=0)
+                s=s+i;
+            else
+                s=s-i;
+        }
+    }
+    public static void main()
+    {
+        series6 s = new series6();
+        s.getData();
+        s.computeData();
     }
 }

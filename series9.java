@@ -28,7 +28,6 @@ class series9
         s.digitCount();
     }
 }
-//WAP to count the num of digits
 //WAP to find the prod of digits
 //WAP to find sum of digit
 //WAP to find average of the num
