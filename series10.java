@@ -21,11 +21,12 @@ class series10
         }
         System.out.println("The reverse number is:"+ rev);
     }
+    public static void main()
+    {
+        series10 s = new series10();
+        s.acceptNumber();
+        s.getReverse();
+    }
 }
-//WAP to accept a number from the user finf the:
-//a. largest digit   b.smallest digit
-
-//WAP to convert a binary number to decimal number
-// wap to find whether or not the number entered by the user is an automorphic number.
-//WAP to input a number and display sum of first and last digit only.
+//WAP to find whether or not the number entered by the user is an automorphic number.
 //WAP to display all the special numbers between 1 and 1000. Such numbers are also referred to as factorions.
